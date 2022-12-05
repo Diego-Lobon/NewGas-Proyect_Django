@@ -26,6 +26,10 @@ SECRET_KEY = 'django-insecure-h38um@0_pnjgzrbkb7899&ozdr)eor(zgb5&vc6dvi&#_3wi$b
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://hemant-to-do.herokuapp.com'
+]
+
 ALLOWED_HOSTS = ["*"]
 
 
